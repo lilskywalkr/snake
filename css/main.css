@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgba(48, 57, 82, 1);
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.points {
+  position: absolute;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+  border-right: 1px solid rgba(255, 255, 255, 1.0);
+}
+
+.container {
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(255, 255, 255, 1.0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .snake,
+.container .snake-tail {
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  z-index: 1;
+  transform: translate(0px, 0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: rgb(22, 26, 28);
+}
+
+.container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#head {
+  z-index: 2;
+}
+
+.container .fruit {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  transform: translate(0, 0);
+  background: crimson;
+}
