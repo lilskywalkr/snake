@@ -43,9 +43,10 @@ No installation needed!
 
 ---
 
-## 🖼️ Screenshots (optional)
+## 🖼️ Overciew
 
-
+![snake1](https://github.com/user-attachments/assets/b5904f36-8a06-4adb-b1f4-a96dfb9caa2f)
+![snake2](https://github.com/user-attachments/assets/a77692e9-f5e3-4f02-b7c6-abb20107bc9d)
 
 ---
 
